@@ -8,7 +8,7 @@ get_response = requests.get(endpoint, json={'product_id': 123}) # HTTP Request
 # print(get_response.text) # raw text response
 
 print(get_response.json())
-print(get_response.status_code)
+# print(get_response.status_code)
 
 
 
